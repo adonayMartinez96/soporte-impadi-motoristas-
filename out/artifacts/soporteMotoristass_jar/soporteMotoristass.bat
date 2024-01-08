@@ -1,3 +1,3 @@
-java -jar soporteMotoristass.jar root alianza96 jdbc:mysql://localhost/impadi
+java -jar soporteMotoristass.jar susyy susy1234 jdbc:mysql://192.168.0.4/silverpos
 
 pause
