@@ -140,7 +140,7 @@ public class MainForm extends JFrame {
 
         //DIRECCION SUSY
         
-        excelController.generarReporteExcel(btnGenerarExcel,model,"C:/Users/cliente/Desktop/soporte/reportes/");
+        excelController.generarReporteExcel(btnGenerarExcel,model,"C:/Users/User/OneDrive/Escritorio/SOPORTE MORISTA/listas/");
 
         btnFecha1.addMouseListener(new MouseAdapter() {
             @Override

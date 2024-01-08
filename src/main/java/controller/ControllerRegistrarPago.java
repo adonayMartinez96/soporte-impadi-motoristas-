@@ -53,8 +53,6 @@ public class ControllerRegistrarPago {
                 rs.close();
                 rs.close();
                 rs.close();
-
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -104,19 +102,12 @@ public class ControllerRegistrarPago {
                                     System.out.println("No se pudo insertar el usuario.");
                                 }
 
-                                panel.setVisible(false);
-                                frame.setVisible(false); // Hace invisible el JFrame
-                                frame.dispose();
-                                System.out.println("cierre exitoso");
 
                             } catch (Exception i) {
                                 i.printStackTrace();
                             }
                         } else {
                             System.out.println("El usuario eligió No o cerró el cuadro de diálogo.");
-                            panel.setVisible(false);
-                            frame.setVisible(false); // Hace invisible el JFrame
-                            frame.dispose();
                         }
 
                     } else {
